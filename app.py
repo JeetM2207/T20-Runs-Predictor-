@@ -35,7 +35,7 @@ current_score = st.number_input('Current Score', min_value=0)
 overs = st.number_input('Overs Completed', min_value=0.0, max_value=20.0, step=0.1)
 wickets_left = st.number_input('Wickets Left', min_value=0, max_value=10)
 balls_left = st.number_input('Balls Left', min_value=0, max_value=120)
-last_five = st.num_
+last_five = st.number_input('Runs in last 5 overs', min_value=0, max_value=75, step=1, key='last_five')
 if st.button('Predict Final Score', key='predict_button'):
     input_df = pd.DataFrame({
     'batting_team': [batting_team],
