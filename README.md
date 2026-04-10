@@ -24,7 +24,7 @@ The features used include:
 
 ## 🚀 Live Demo
 
-![App Screenshot Placeholder](https://user-images.githubusercontent.com/yourusername/screenshot.png)
+
 
 👉 Visit the app here: [https://t20runspredictor.streamlit.app/](https://t20runspredictor.streamlit.app/)
 
